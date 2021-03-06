@@ -13,6 +13,9 @@ export default function Home() {
           <li>
             <a href="/nabokov-superman">The Man of To-morrow's Lament by Vladimir Nabokov</a>
           </li>
+          <li>
+            <a href="/tao-te-ching-55">Tao Te Ching (55) by Lao Tzu</a>
+          </li>
         </ul>
       </main>
     </>
