@@ -68,6 +68,9 @@ export default function Home() {
           June 1942
         </p>
       </main>
+      <footer>
+        <a href="/">Home</a>
+      </footer>
     </>
   )
 }
