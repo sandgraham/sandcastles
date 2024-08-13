@@ -1,6 +1,8 @@
-import Head from 'next/head'
+import Head from "next/head";
+//
+export default Page;
 
-export default function Home() {
+function Page() {
   return (
     <>
       <Head>
@@ -11,13 +13,28 @@ export default function Home() {
         <h1>Sandcastles</h1>
         <ul>
           <li>
-            <a href="/nabokov-superman">The Man of To-morrow's Lament by Vladimir Nabokov</a>
+            <a href="/nabokov-superman">
+              The Man of To-morrow's Lament by Vladimir Nabokov
+            </a>
           </li>
           <li>
             <a href="/tao-te-ching-55">Tao Te Ching (55) by Lao Tzu</a>
           </li>
+          <li>
+            <a href="/the-road-not-taken">The Road Not Taken by Robert Frost</a>
+          </li>
+          <li>
+            <a href="/acquainted-with-the-night">
+              Acquainted with the Night by Robert Frost
+            </a>
+          </li>
+          <li>
+            <a href="/stopping-by-woods-on-a-snow-evening">
+              Stopping by Woods on a Snowy Evening by Robert Frost
+            </a>
+          </li>
         </ul>
       </main>
     </>
-  )
+  );
 }
