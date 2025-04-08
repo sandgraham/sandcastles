@@ -1,4 +1,3 @@
-import Head from "next/head";
 import { PoemPage } from "../components/PoemPage";
 //
 export default Page;
